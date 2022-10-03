@@ -2,7 +2,7 @@ AFRAME.registerComponent("create-buttons", {
   init: function() {
     // 1. Crear el botón de calificación
     var button1 = document.createElement("button");
-    button1.innerHTML = "CALIFICAR PLATILLO";
+    button1.innerHTML = "EVALUAR PLATILLO";
     button1.setAttribute("id", "rating-button");
     button1.setAttribute("class", "btn btn-warning ml-3 mr-3");
 

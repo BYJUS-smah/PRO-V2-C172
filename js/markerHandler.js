@@ -64,7 +64,7 @@ AFRAME.registerComponent("markerhandler", {
       swal({
         icon: "warning",
         title: dish.dish_name.toUpperCase(),
-        text: "¡¡¡Este plato no está disponible hoy!!!",
+        text: "¡¡¡Este platillo no está disponible hoy!!!",
         timer: 2500,
         buttons: false
       });
@@ -199,7 +199,7 @@ AFRAME.registerComponent("markerhandler", {
     //Eliminar datos antiguos de tr(fila de la tabla)
     tableBodyTag.innerHTML = "";
 
-    //Obtener la clave de cuurent_orders.
+    //Obtener la clave de cuurent_orders
     var currentOrders = Object.keys(orderSummary.current_orders);
 
     currentOrders.map(i => {
@@ -235,7 +235,7 @@ AFRAME.registerComponent("markerhandler", {
       tableBodyTag.appendChild(tr);
     });
 
-    //Crear una fila para la cuenta total
+    //Crear una fila para el precio total
     var totalTr = document.createElement("tr");
 
     //Crear una celda vacía (para no tener datos)
