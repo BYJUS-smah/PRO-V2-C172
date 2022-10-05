@@ -199,7 +199,7 @@ AFRAME.registerComponent("markerhandler", {
     //Eliminar datos antiguos de tr(fila de la tabla)
     tableBodyTag.innerHTML = "";
 
-    //Obtener la clave de cuurent_orders
+    //Obtener la clave de current_orders
     var currentOrders = Object.keys(orderSummary.current_orders);
 
     currentOrders.map(i => {
@@ -290,7 +290,7 @@ AFRAME.registerComponent("markerhandler", {
       .then(() => {
         swal({
           icon: "success",
-          title: "¡Gracias por tu compra!",
+          title: "¡Gracias por su compra!",
           text: "¡¡Esperamos que haya disfrutado de su comida!!",
           timer: 2500,
           buttons: false
